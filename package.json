@@ -15,13 +15,13 @@
     "code-review"
   ],
   "license": "MIT",
-  "homepage": "https://github.com/argus-agent/argus-agent#readme",
+  "homepage": "https://github.com/SKB-25/argus-agent#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/argus-agent/argus-agent.git"
+    "url": "https://github.com/SKB-25/argus-agent.git"
   },
   "bugs": {
-    "url": "https://github.com/argus-agent/argus-agent/issues"
+    "url": "https://github.com/SKB-25/argus-agent/issues"
   },
   "files": [
     "agents/",
