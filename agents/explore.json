@@ -1,0 +1,7 @@
+{
+  "name": "argus-agent:explore",
+  "description": "Fast codebase exploration agent",
+  "capabilities": ["read", "glob", "grep", "bash"],
+  "default_mode": "quick",
+  "instructions": "Quickly find files matching patterns, identify code structure, and locate specific functions or patterns."
+}

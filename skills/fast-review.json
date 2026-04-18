@@ -1,0 +1,11 @@
+{
+  "name": "argus-agent:fast-review",
+  "description": "Quick code review for small changes",
+  "triggers": ["quick-review", "small-change"],
+  "actions": [
+    "Check for obvious bugs",
+    "Verify error handling exists",
+    "Ensure no console.log/debugger left in code"
+  ],
+  "severity": "medium"
+}

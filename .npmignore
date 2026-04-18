@@ -1,0 +1,6 @@
+# Ignore these files in npm package
+scripts/
+*.bak
+.DS_Store
+Thumbs.db
+*.log

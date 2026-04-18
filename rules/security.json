@@ -1,0 +1,22 @@
+{
+  "name": "security-first",
+  "description": "Security best practices for all code",
+  "priority": "critical",
+  "rules": [
+    {
+      "id": "no-command-injection",
+      "description": "Never use user input in shell commands without validation",
+      "pattern": "Never interpolate unsanitized user input into shell commands. Use array form or escape properly."
+    },
+    {
+      "id": "parameterized-queries",
+      "description": "Use parameterized queries to prevent SQL injection",
+      "pattern": "Always use parameterized queries for database operations."
+    },
+    {
+      "id": "input-validation",
+      "description": "Validate all external inputs at system boundaries",
+      "pattern": "Validate inputs at the system boundary, not deep in the code."
+    }
+  ]
+}

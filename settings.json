@@ -1,0 +1,22 @@
+{
+  "name": "argus-agent",
+  "version": "1.0.0",
+  "description": "All-seeing Claude Code plugin - monitors code quality, security, and best practices",
+  "enabled": true,
+  "autoLoad": true,
+  "settings": {
+    "rules": {
+      "enabled": true,
+      "priority": "high"
+    },
+    "skills": {
+      "enabled": true
+    },
+    "agents": {
+      "enabled": true
+    },
+    "commands": {
+      "enabled": true
+    }
+  }
+}

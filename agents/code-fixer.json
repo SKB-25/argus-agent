@@ -1,0 +1,6 @@
+{
+  "name": "argus-agent:fixer",
+  "description": "Apply fixes from code review findings",
+  "capabilities": ["read", "edit", "write", "glob", "grep"],
+  "instructions": "Read REVIEW.md, find the relevant source files, apply intelligent fixes for each finding, and commit each fix atomically."
+}

@@ -1,0 +1,13 @@
+{
+  "plugins": [
+    {
+      "name": "argus-agent",
+      "path": "./",
+      "description": "All-seeing security and code quality agent for Claude Code"
+    }
+  ],
+  "owner": {
+    "name": "Argus Community",
+    "url": "https://github.com/argus-agent"
+  }
+}

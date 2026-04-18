@@ -1,0 +1,55 @@
+{
+  "name": "argus-agent",
+  "version": "1.0.0",
+  "description": "All-seeing security and code quality agent for Claude Code - monitors code quality, security vulnerabilities, and integrates with SonarQube, Fortify, and JFrog",
+  "keywords": [
+    "claude",
+    "claude-code",
+    "security",
+    "code-quality",
+    "sonarqube",
+    "fortify",
+    "jfrog",
+    "static-analysis",
+    "devsecops",
+    "code-review"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/argus-agent/argus-agent#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/argus-agent/argus-agent.git"
+  },
+  "bugs": {
+    "url": "https://github.com/argus-agent/argus-agent/issues"
+  },
+  "files": [
+    "agents/",
+    "skills/",
+    "rules/",
+    "commands/",
+    "CLAUDE.md",
+    "README.md",
+    "marketplace.json",
+    "settings.json",
+    "install.sh"
+  ],
+  "bin": {
+    "argus-install": "./install.sh"
+  },
+  "scripts": {
+    "postinstall": "node scripts/postinstall.js"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "os": [
+    "darwin",
+    "linux",
+    "win32"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
+  }
+}

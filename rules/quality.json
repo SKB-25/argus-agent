@@ -1,0 +1,22 @@
+{
+  "name": "code-quality",
+  "description": "Code quality and style rules",
+  "priority": "high",
+  "rules": [
+    {
+      "id": "meaningful-names",
+      "description": "Use descriptive variable and function names",
+      "pattern": "Variable and function names should describe their purpose clearly."
+    },
+    {
+      "id": "single-responsibility",
+      "description": "Each function should do one thing",
+      "pattern": "Keep functions small and focused on a single responsibility."
+    },
+    {
+      "id": "no-dead-code",
+      "description": "Remove unused code",
+      "pattern": "Delete unused code instead of commenting it out."
+    }
+  ]
+}

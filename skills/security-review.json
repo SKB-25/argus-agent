@@ -1,0 +1,12 @@
+{
+  "name": "argus-agent:security-review",
+  "description": "Scan code for security vulnerabilities before commits",
+  "triggers": ["before-commit", "security"],
+  "actions": [
+    "Check for hardcoded credentials",
+    "Validate SQL query construction",
+    "Ensure file paths are sanitized",
+    "Verify authentication/authorization patterns"
+  ],
+  "severity": "critical"
+}
