@@ -32,14 +32,13 @@
     "README.md",
     "marketplace.json",
     "settings.json",
-    "install.sh"
+    "install.sh",
+    "scripts/"
   ],
   "bin": {
     "argus-install": "./install.sh"
   },
-  "scripts": {
-    "postinstall": "node scripts/postinstall.js"
-  },
+  "scripts": {},
   "engines": {
     "node": ">=16.0.0"
   },
