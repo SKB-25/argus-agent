@@ -33,7 +33,7 @@ if command -v git &> /dev/null; then
         cd "$INSTALL_DIR/argus-agent" && git pull
     else
         echo "Cloning argus-agent..."
-        git clone "https://github.com/argus-agent/argus-agent.git" "$INSTALL_DIR/argus-agent"
+        git clone "https://github.com/SKB-25/argus-agent.git" "$INSTALL_DIR/argus-agent"
     fi
 else
     echo "Git not found. Please install Git or manually copy the argus-agent folder."
